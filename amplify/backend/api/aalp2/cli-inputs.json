@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "aalp2",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/barbaroreyes/examples/Allpro/aalp2/amplify/backend/api/aalp2/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
