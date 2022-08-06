@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
      {projects.map((item , i )=>{
-      return(<div>
+      return(<div key={i}>
         {item.name}
         <div>
         < img src={item.picture} alt={item.name}/>
