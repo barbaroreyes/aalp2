@@ -5,8 +5,8 @@ import Profile from './Profile';
 const Header = () => {
   return (
     <div className="header-container">
-       <Profile/>
-      <Navigation/>
+      <Profile/>
+     <Navigation/>
      
     </div>
   );
