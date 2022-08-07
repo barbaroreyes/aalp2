@@ -1,28 +1,30 @@
 .App {
   display: flex;
   text-align: center;
+  align-items: center; 
+  flex-direction: column ;
+  align-items: center; 
+  padding: 20px;
+  border: 1px solid;
 }
 .projects{
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
+  flex-direction: column;
+   
+  
   
 }
 .project{
-  margin: 5px;
-
   display: flex;
-  justify-content:center;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
+  margin: 10px;
 }
 .container-project{
-  margin: 20px;
+  margin: 30px;
 }
 .img-project{
-  width: 80%;
+  width: 70%;
   border-radius: 20px;
 }
 
@@ -31,8 +33,7 @@
   flex-direction: column;
   justify-content :center;
   align-items : center;
-  border: 1px solid;
-  padding: 45px;
+   padding: 45px;
 }
 .container-single{
   width: 100%;
@@ -52,6 +53,9 @@
  border: 1px solid;
  margin: 13px;
 }
+.navigation{
+  border: 1px solid;
+}
 
 
 
@@ -65,7 +69,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }

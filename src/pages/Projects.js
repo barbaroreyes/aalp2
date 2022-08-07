@@ -8,9 +8,8 @@ const Projects = () => {
         {projects.map((item , i )=>{
       return(<Link className="project" to={`/projects/${item.id}`} key={i}>
         
-        <div className="container-project" >
-        < img className="img-project" src={item.picture} alt={item.name}/>
-        {item.name}
+        <div className="container-project">
+        <img className="img-project" src={item.picture} alt={item.name}/>
         </div>
         
       </Link>)
