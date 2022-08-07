@@ -7,6 +7,22 @@
   padding: 20px;
   
 }
+.header-container{
+  
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  height: 4vh;
+}
+.profile-container{
+  border: 1px solid;
+  width: 40%;
+  border-radius:50%;
+  height:140px;
+  display: flex;
+  justify-content:center;
+}
 .projects{
   width: 100%;
   display: flex;
@@ -95,10 +111,7 @@
   
   }
   @media (min-width: 1400px) {
-    .projects{
-      
-     
-    }.project{
+   .project{
       width: 20.7%;
     }
     

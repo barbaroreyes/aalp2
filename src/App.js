@@ -5,7 +5,8 @@ import Home from './pages/Home';
 import './App.css';
 import Projects from './pages/Projects';
 import ProjectDetails from './compo/ProjectDetails';
-import Navigation from "./compo/Navigation";
+import Header from "./compo/Header";
+
 Amplify.configure(awsconfi )
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     
     <div className="App">
-      <Navigation/>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>
